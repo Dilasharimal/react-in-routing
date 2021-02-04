@@ -20,6 +20,7 @@ function App() {
         />
         <Route path="/clock" component={Clock} />
         <Route path="/contact" component={Contact} />
+        <Route path="/welcome/:name" component={Welcome} />
         <Route path="/welcome" component={Welcome} />
 
         <Route>
